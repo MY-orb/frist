@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<style>
+			.goods-list{
+				position: relative;
+				width: 69%;
+				height:200px;
+				margin: 0 auto;
+			}
+			.goods-list img{
+				position: absolute;
+				top:20px;
+				left: 0;
+				width: 80px;
+				height:80px;
+			}
+			.goods-list p{
+				font-size:16px;
+				width: 120px;
+				height: 30px;
+				display: block;
+				position: absolute;
+				top:80px;
+				left:100px;
+			}
+			.goods-list div{
+				font-size:16px;
+				width: 120px;
+				height: 30px;
+				display: block;
+				position: absolute;
+				top:80px;
+				left:230px;
+			}
+			.goods-list .jj{
+				cursor: pointer;
+				line-height: 30px;
+				text-align: center;
+				color: #fff;
+				font-weight: 900;
+				position: absolute;
+				top:75px;
+				left:340px;
+				width: 30px;
+				height:30px;
+				background: #B28247;
+				border: 0;
+				outline: none;
+			}
+			.goods-list .ja{
+				cursor: pointer;
+				line-height: 30px;
+				text-align: center;
+				color: #fff;
+				font-weight: 900;
+				position: absolute;
+				top:75px;
+				left:440px;
+				width: 30px;
+				height:30px;
+				background: #B28247;
+				border: 0;
+				outline: none;
+			}
+			.goods-list .xx{
+				line-height: 30px;
+				text-align: center;
+				color:#000;
+				font-weight: 900;
+				position: absolute;
+				top:75px;
+				left:370px;
+				width: 70px;
+				height:26px;
+				border: 0;
+				border-bottom: 2px solid #B28247;
+				border-top: 2px solid #B28247;
+				outline: none;
+			}
+			.goods-list a{
+				font-size:16px;
+				width: 80px;
+				height: 30px;
+				display: block;
+				position: absolute;
+				top:80px;
+				left:520px;
+				color:red;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<!--侧边栏-->
+				<dl class="ceb">
+					<dt>
+						<div class="menu-block1">
+							<ul>
+								<li class="menu-cart">
+									<a>
+										<div class="tab-logo-cart"></div>
+									</a>
+									<div></div>
+								</li>
+								<li class="menu-zichan">
+									<a>
+										<div class="tab-logo-zichan"></div>
+										<div class="tab-zichan-lab">我的资产</div>
+									</a>
+									<div></div>
+								</li>
+								<li class="menu-like">
+									<a>
+										<div class="tab-logo-like"></div>
+										<div class="tab-zichan-lab">我喜欢的商品</div>
+									</a>
+									<div></div>
+								</li>
+								<li class="tab-kefu">
+									<a>
+										<div class="tab-logo-kefu"></div>
+										<div class="tab-zichan-lab">联系客服</div>
+									</a>
+									<div></div>
+								</li>
+							</ul>
+						</div>
+						<div class="menu-block2">
+							<ul>
+								<li class="menu-cart">
+									<a>
+										<div class="tab-logo-cart"></div>
+										<div class="tab-zichan-lab"><img src="img/weixin_img.png.jpg" ></div>
+									</a>
+									<div></div>
+								</li>
+								<li class="menu-zichan">
+									<a>
+										<div class="tab-logo-zichan"></div>
+										<div class="tab-zichan-lab">意见反馈</div>
+									</a>
+									<div></div>
+								</li>
+								<li class="menu-like">
+									<a>
+										<div class="tab-logo-like"></div>
+										<div class="tab-zichan-lab">联系我们</div>
+									</a>
+									<div></div>
+								</li>
+								<li class="tab-kefu">
+									<a href="#dib">
+										<div class="tab-logo-kefu"></div>
+										<div class="tab-zichan-lab">返回顶部</div>
+									</a>
+									<div></div>
+								</li>
+							</ul>
+						</div>
+					</dt>
+					<dd></dd>
+				</dl>
+		<!--顶部-->
+			<header>
+				<div class="hea-main">
+					<dl class="gohome">
+						<b></b>
+						<a href="index.html">第五大道首页</a>
+						<i></i>
+					</dl>
+					<dl class="phone">
+						<dt>
+							<b></b>
+							贵宾专线：4008-6767-38
+						</dt>
+					</dl>
+					<div class="hea-right">
+						<dl class="mob">
+							<dt>
+								<span>手机版下载</span>
+							</dt>
+							<dd class="phone-e">
+								<ul>
+									<li>
+										<img src='img/qr-1.jpg'>
+									</li>
+									<li>扫描下载APP</li>
+									<li>
+										立即
+										<span>赠送50元</span>
+									</li>
+								</ul>
+							</dd>
+						</dl>
+						<dl class="help">
+							<dt>
+								<a>帮助中心</a>
+								<i></i>
+							</dt>
+						</dl>
+						<dl class="my">
+							<dt>
+								<a>我的第五大道</a>
+								<i></i>
+							</dt>
+							<dd>
+									<a>我的订单</a>
+									<a>我的收藏</a>
+									<a>已购商品</a>
+									<a>我的礼券</a>
+									<a>我的积分</a>
+							</dd>
+						</dl>
+						<dl class="userbox">
+							<dl class="ri">
+								<b></b>
+								<a href="zhuce.html">注册</a>
+								<i></i>
+							</dl>
+							<dl class="lf">
+								<a href="land.html">登录</a>
+								<i></i>
+							</dl>
+							
+						</dl>
+					</div>
+				</div>
+			</header>
+			<div class="header-head"></div>
+			<!--logo图标-->
+			<div class="logo">
+				<div class="logo-main">
+					<a href="index.html">
+					<img src="img/logo-1.jpg">
+					</a>
+					<b></b>
+					<div class="sou">
+						<form>
+							<input type="text"placeholder=" 唇部彩妆" id="ipt">
+							<input type="hidden" value="s8dfxs2s0" id="stoken" name="stoken">
+							<button>搜 索</button>			
+						</form>
+						<a style="margin-left: 0;">太阳镜</a><a>美妆</a><a>运动户外</a><a>箱包</a><a>配饰</a><a>腕表</a>
+					</div>
+					<div class="shop">
+						<dl>
+							<dt>
+								<img src="img/v30cart.png">
+								<a href="shop.html">
+								<span class="xiq">
+									购物袋(
+									<span>0</span>
+									)</span>
+								</a>
+							</dt>
+							<dd>
+								<p>购物袋暂时还没有商品,</p>
+								<p>赶快去选心爱的商品吧!</p>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<!--nav导航-->
+			<nav>
+				<div class="nav-m">
+					<a>商品分类</a>
+					<a>品牌</a>
+					<a>最新</a>
+					<a>女士</a>
+					<a href="list.html" class="acv">男士</a>
+					<a>生活馆</a>
+					<a>海外馆</a>
+					<a>时尚</a>
+					<a>特惠</a>
+					<a>礼品区</a>
+					<a href="list.html" > <i></i> 到店</a>
+				</div>
+				</nav>
+			<!--flow分界线-->
+			<div class="flow">
+			</div>
+			
+			<div class="pic"style="width: 85%;height:80px;margin: 0 auto;margin-top: 10px;  " >
+				<img src="img/555.jpg" style="float: right;cursor: pointer;">
+			</div >
+			
+			<div class="clec" style="width: 100%;height: 5px;clear: both; "></div>
+			<div class="boa" style="width:85%;height: 30px;background: #3c3c3c;margin: 0 auto;"></div>
+			<div class="goods-list">
+
+			</div>
+
+			
+			<div class="fj"style="width: 100%;height: 1px;background: #DFDFDF;margin-top:50px ;clear: both;"></div>
+			<!--底部-->
+			<div id="footer_message"></div>
+			<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+			<script type="text/javascript" src="js/common.js"></script>
+			<script src="js/land.js"></script>	
+			<script src="js/carts.js"></script>
+			<script src="js/cookie.js"></script>
+	</body>
+</html>

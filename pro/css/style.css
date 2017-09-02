@@ -1,0 +1,273 @@
+/*-----------------------登陆---------------------------------*/
+#register{
+	height: 570px;
+	background: url(../img/landing-bg.jpg) no-repeat;
+}
+#register .register_content{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+#register .register_content .register_left{
+	width: 705px;
+	height: 680px;
+	background: url(../img/landing-icon.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: -150px;
+	z-index: 10;
+}
+#register .register_content .register_right{
+	width: 450px;
+	height: 499px;
+	float: right;
+	margin-top: 47px;
+	margin-left: 10px;
+	background-color: #ffffff;
+	box-shadow: #afabab 0px 0px 8px;
+}
+#register .register_box{
+	width: 300px;
+	height: 409px;
+	margin: 45px auto;
+}
+#register .register_box ul{
+	width: 300px;
+	height: 409px;
+}
+#register .r-l1{
+	width: 100%;
+	font-size: 15px;
+	color: #6d6d6d;
+	padding-bottom: 12px;
+	margin-bottom:32px;
+	border-bottom: 1px solid #ccc;
+}
+#register .r-l2{
+	width: 275px;
+	height: 64px;
+	padding-left: 25px;
+}
+#register .r-l2 input{
+	width: 250px;
+	height: 32px;
+	text-indent: 2.8em;
+	vertical-align: middle;
+	line-height: 32px;
+	border: 1px solid #ccc;
+}
+#register .r-l2 .r-l2_use{
+	background: url(../img/r2_input_01.jpg) no-repeat;
+}
+#register .r-l2 .r-l2_pass{
+	background: url(../img/r2_input_02.jpg) no-repeat;
+}
+#register .r_l3{
+	width: 250px;
+	height: 24px;
+	padding-left: 25px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	
+}
+#register .r_l3 input{
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#register .r_l3 span{
+	float: left;
+	line-height: 24px;
+}
+#register .r_l3 a{
+	color: #a78668;
+	text-decoration:underline;
+	float: right;
+	line-height: 24px;
+}
+#register .r_l4{
+	width: 275px;
+	height: 30px;
+	padding-left: 25px;
+	margin-top: 10px;
+}
+#register .r_l4 input{
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #cf0101;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+#register .r_l5{
+	width: 275px;
+	height: 24px;
+	padding: 20px 25px 20px 0;
+	text-align: right;
+	border-bottom: 1px solid #ccc;
+}
+#register .r_l5 span{
+	line-height: 24px;
+}
+#register .r_l5 a{
+	line-height: 24px;
+	text-decoration: underline;
+	color: #a78668;
+	margin-left: 10px;
+}
+#register .r_l6{
+	width: 300px;
+	height: 48px;
+	padding-top: 20px;
+	text-align: center;
+}
+#register .r_l6 p{
+	line-height: 24px;
+	float: left;
+	padding-left: 25px;
+}
+#register .r_l6 a{
+	display: inline-block;
+}
+/*-----------------------注册-------------------------------*/
+#zhuce{
+	height: 659px;			
+	background: url(../img/zhuce-bg.jpg) no-repeat;
+}
+#zhuce .zhuce_content{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+#zhuce .zhuce_content .zhuce_left{
+	width: 705px;
+	height: 680px;
+	background: url(../img/zhuce-icon.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: -114px;
+	z-index: 10;
+}		
+#zhuce .zhuce_content .zhuce_right{
+	width: 450px;
+	height: 592px;
+	float: right;
+	margin-top: 47px;
+	margin-left: 10px;
+	background-color: #ffffff;
+	box-shadow: #afabab 0px 0px 8px;
+}
+#zhuce .zhuce_box{
+	width: 330px;
+	height: 502px;
+	margin: 45px auto;
+}
+#zhuce .zhuce_box ul{
+	width: 330px;
+	height: 502px;
+	position: relative;
+}
+#zhuce .z-l1{
+	width: 100%;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+}
+#zhuce .z-l1 span{
+	height: 25px;
+	line-height: 25px;
+	padding: 2px 20px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	background-color: #000;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: -30px;
+}
+#zhuce .z_l2{
+	width: 328px;
+	height: 64px;
+	padding-left: 2px;
+}
+#zhuce .z_l2 label{
+	width: 72px;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	text-align: right;
+	vertical-align: middle;
+}
+#zhuce .z_l2 input{
+	width: 210px;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+}
+#zhuce .z_l2 .z_tips{
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	line-height: 15px;
+	widows: 150px;
+}
+#zhuce .z_l2 .get_yzm{
+	width: 70px;
+	line-height: 25px;
+	border: 1px solid #ccc;
+	color: #000;
+	position: absolute;
+	top: 3px;
+	right: -32px;
+	cursor: pointer;
+	text-align: center;
+}
+#zhuce .z_l2 .get_yzm:hover{
+	color: #fff;
+	background-color: goldenrod;
+}
+#zhuce .z_l3{
+	width: 268px;
+	height: 24px;
+	line-height: 24px;
+	margin-left: 62px;
+	margin-bottom: 20px;
+}
+#zhuce .z_l3 a{
+	color: #757272;
+}
+#zhuce .z_l3 a:hover{
+	color: goldenrod;
+}
+#zhuce .z_btn{
+	width: 210px;
+	height: 30px;
+	display: inline;
+	line-height: 30px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	background-color: #cf0101;
+	margin-left: 72px;
+}
+#zhuce .z_l4{
+	text-align: right;
+	padding: 20px 2px 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+#zhuce .z_l4 a{
+	text-decoration: underline;
+	color: #a78668;
+	margin-left: 10px;
+}
+#zhuce .z_l5{
+	line-height: 24px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#zhuce .z_l5 span{
+	color: red;
+}
